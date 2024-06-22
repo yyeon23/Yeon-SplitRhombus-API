@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body {
+  background-color: #000;
+  color: white; /* 텍스트 색상을 흰색으로 설정 */
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+
+input {
+  width: 98%;
+  height: auto;
+  background-color: transparent;
+  color: white;
+  border: 0px #000;
+  border-radius: 0px;
+  padding: 10px;
+  margin: 47px 0;
+  font-size: 80px;
+  font-family: "Arial", sans-serif;
+  background-color: transparent;
+  text-align: center;
+  z-index: 1;
+}
+
+input[type=text] {
+  outline: none;
+}
+
+#address {
+  position: fixed; /* 고정 위치로 설정 */
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #FF1995;
+  border-radius: 34px;
+  color: #FF1995;
+  border: 1px #FF1995;
+  padding: 19px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 250px auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  z-index: 2;
+  position: fixed;
+  left: 50%; /* 가로 중앙으로 이동 */
+  transform: translateX(-50%); /* 가로 중앙 정렬 */
+}
+
+button:hover {
+  background-color: #FF1995; /* Dark green */
+  color: #000;
+}
+
+.destLocation {
+  margin: 20px 0;
+}
+
+.destLocation {
+  position: relative;
+}
+
+.myLocation {
+  position: relative;
+  margin-top: -10px;
+}
+
+.destLocation, .myLocation {
+  display: block;
+}
+
+.contents {
+  margin: 0%;
+}
+
+#address::-moz-placeholder {
+  color: rgb(26, 26, 26);
+  text-align: center;
+  background-color: #000;
+}
+
+#address:-ms-input-placeholder {
+  color: rgb(26, 26, 26);
+  text-align: center;
+  background-color: #000;
+}
+
+#address::placeholder {
+  color: rgb(26, 26, 26);
+  text-align: center;
+  background-color: #000;
+}
+
+.myLatitude, .myLongitude, #destLatitude, #destLongitude {
+  font-family: "Arial", sans-serif;
+  padding: 6px;
+}
+
+.myLocation, .destLocation {
+  position: fixed;
+  font-family: "Arial", sans-serif;
+}
+
+.location {
+  width: 97.5%;
+  font-size: 80px;
+  font-family: "Arial", sans-serif;
+  padding-left: 10px;
+  position: absolute;
+  margin-top: 58px;
+  color: #FF1995;
+}
+
+.myLocation {
+  display: flex; /* 부모 요소를 플렉스 박스로 설정 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+.a {
+  letter-spacing: 1.35px; /* 자간 설정 */
+  margin-left: 5px;
+}
+
+.b {
+  letter-spacing: -1px;
+  margin-left: 5px;
+}
+
+.destLocation {
+  display: flex; /* 부모 요소를 플렉스 박스로 설정 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+img {
+  margin-top: 0px;
+  margin-left: 5px;
+  width: 36px;
+  height: auto;
+}
+
+.text {
+  position: fixed;
+  margin-top: 50vh;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  color: #000;
+  background: #FF1995;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

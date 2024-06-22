@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>BUT HAPPINESS IS'NT A DESTINATION</title>
+</head>
+<body>
+    <h1></h1>
+    <section class="dest">
+        <label for="address"></label>
+        <input type="text" id="address" placeholder="BUT, HAPPINESS IS NOT A DESTINATION">
+        <button onclick="getCoordinates()">GO</button>
+        <div class="destLocation">
+            <span class="b">HERE WE GO</span>
+            <img src="/img/DEST.svg" alt="destination img">
+            <span id="destLatitude"></span>
+            <span id="destLongitude"></span>
+        </div>
+    </section>
+
+    <section class="my">
+        <div class="myLocation">
+            <span class="a">I AM HERE</span>
+            <img src="/img/NOW.svg" alt="current location img">
+            <span class="myLatitude"></span>
+            <span class="myLongitude"></span>
+        </div>
+        <div class="showLocation">
+            <span class="location"></span>
+        </div>
+        <div id="maxSpacing"></div>
+    </section>
+    <section class="calculate">
+        <span class="text"></span>
+    </section>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
